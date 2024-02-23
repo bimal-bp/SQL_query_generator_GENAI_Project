@@ -3,9 +3,10 @@ python-dotenv==1.0.0
 streamlit==1.22.0
 tiktoken==0.4.0
 faiss-cpu==1.7.4
-protobuf==1.7.4
+protobuf>=3.0.0
 langchain_experimental
 mysql-connector-python
 pymysql
 sentence-transformers
-chromoadb
+chromadb
+-e .
